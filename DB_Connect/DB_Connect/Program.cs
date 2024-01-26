@@ -38,9 +38,9 @@ namespace DB_Connect
 
                         {
 
-                            // Process data from the reader
+                            
 
-                            Console.WriteLine(reader.GetString(0)); // Example of accessing column data
+                            Console.WriteLine(reader.GetString(0));
                             cmd.ExecuteNonQuery();
                             //close connection
                             connection.Close();
